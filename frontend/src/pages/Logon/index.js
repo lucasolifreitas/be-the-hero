@@ -10,8 +10,8 @@ import heroesImage from '../../assets/heroes.png';
 import logoImage from '../../assets/logo.svg';
 
 export default function Logon(){
-    const [id,setId] = useState('');
-    const history = useHistory();
+    const [id,setId] =  useState('');
+    const history =  useHistory();
 
     async function handleLogin(e) {
         e.preventDefault();
